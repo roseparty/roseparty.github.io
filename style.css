@@ -26,6 +26,11 @@ body {
 }
 a {
     color: white;
+    transition: transform 1.5s;
+}
+a:hover{
+    /* emulate the font turning into italic */
+    transform: skewX(-20deg);
 }
 #aboutFirstParagraph{
     width: 80%;
