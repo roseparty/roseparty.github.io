@@ -14,4 +14,9 @@ body {
 }
 a{
     color: white;
+    text-decoration-line: none;
+}
+#aboutFirstParagraph{
+    width: 80%;
+    justify-content: center;
 }
