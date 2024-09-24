@@ -27,7 +27,7 @@ body {
 }
 a {
     color: white;
-    transition: transform 1.5s;
+    transition: all 1.5s;
 }
 a:hover{
     /* emulate the font turning into italic */
