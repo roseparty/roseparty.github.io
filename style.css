@@ -10,6 +10,7 @@
 }
 #navbar > a {
     padding:20px;
+    text-decoration-line: none;
 }
 #header {
     background-color:#9ee493;
