@@ -11,11 +11,13 @@
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     text-align: center;
+    display:flex;
 }
 #navbar > a {
     padding:20px;
     text-decoration-line: none;
     color: #3b1f2b;
+    transition: all 0.50s ease-in-out;
 }
 #header {
     background-color:#9ee493;
@@ -32,9 +34,9 @@ body {
 }
 a {
     color: #fefffe;
-    transition: all 0.75s ease-in-out;
+    display: inline-block;
 }
-a:hover{
+#navbar > a:hover{
     /* emulate the font turning into italic */
     transform: skewX(-20deg);
 }
