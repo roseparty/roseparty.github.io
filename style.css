@@ -8,11 +8,14 @@
     vertical-align: top;
     top: 0;
     width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
     text-align: center;
 }
 #navbar > a {
     padding:20px;
     text-decoration-line: none;
+    color: #3b1f2b;
 }
 #header {
     background-color:#9ee493;
@@ -26,7 +29,7 @@ body {
     font-style: normal;
 }
 a {
-    color: white;
+    color: #fefffe;
     transition: transform 1.5s;
 }
 a:hover{
