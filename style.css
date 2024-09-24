@@ -1,14 +1,12 @@
 #navbar {
     background-color: #ff474e;
     height: 10%;
-    display: flex;
     justify-content: center;
     align-items: center;
     z-index: 2;
     position: sticky;
     top: 0;
     width: 100%;
-    vertical-align: top;
 }
 #navbar > a {
     padding:20px;
@@ -20,8 +18,11 @@
 body {
     margin: 0;
     background-color: #fefffe;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-a{
+a {
     color: white;
 }
 #aboutFirstParagraph{
