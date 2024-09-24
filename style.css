@@ -6,7 +6,6 @@
     align-items: center;
     z-index: 2;
     position: sticky;
-    top: auto;
     width: 100%;
     vertical-align: middle;
 }
