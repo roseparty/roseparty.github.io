@@ -23,6 +23,7 @@
 }
 body {
     margin: 0;
+    padding: 5px;
     background-color: #fefffe;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
