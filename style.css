@@ -8,6 +8,7 @@
     vertical-align: top;
     top: 0;
     width: 100%;
+    text-align: center;
 }
 #navbar > a {
     padding:20px;
