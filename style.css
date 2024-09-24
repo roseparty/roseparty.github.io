@@ -20,6 +20,7 @@
 #header {
     background-color:#9ee493;
     text-align: center;
+    font-family: "Staatliches", sans-serif;
 }
 body {
     margin: 0;
@@ -31,7 +32,7 @@ body {
 }
 a {
     color: #fefffe;
-    transition: transform 0.75s;
+    transition: transform 0.75s ease-in-out;
 }
 a:hover{
     /* emulate the font turning into italic */
