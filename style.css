@@ -5,13 +5,14 @@
     justify-content: center;
     align-items: center;
     z-index: 2;
-    position: fixed;
+    position: sticky;
+    top: auto;
     width: 100%;
     vertical-align: middle;
 }
 #header {
     background-color:#9ee493;
-    text-align:center;
+    text-align: center;
 }
 body {
     margin: 0;
