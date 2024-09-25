@@ -16,7 +16,7 @@ nav {
 }
 nav > a {
     padding:20px;
-    text-decoration-line: none;
+    text-decoration: underline #ff474e;
     color: #3b1f2b;
     transition: all 0.50s ease-in-out;
 }
