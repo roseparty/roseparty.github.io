@@ -11,24 +11,27 @@ nav {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     text-align: center;
-    display:flex;
+    display: flex;
     margin: 0;
 }
 nav > a {
-    padding:20px;
+    padding: 20px;
     text-decoration: underline #ff474e;
     color: #3b1f2b;
-    transition: all 0.50s ease-in-out;
+    transition: transform 0.3s ease-in, text-decoration 0.3s ease-in-out;
 }
 #header {
     background-color:#9ee493;
     text-align: center;
     font-family: "Staatliches", sans-serif;
     padding: 10px;
+    margin-top: 0;
 }
-#header h1 {
-    font-size: 30px;
-    margin-top: 0; 
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 35px;
 }
 body {
     margin: 0;
