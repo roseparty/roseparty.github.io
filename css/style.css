@@ -69,3 +69,13 @@ nav > a:hover{
     justify-content:center;
     width:100%;
 }
+#platformDropdown{
+    width:10%;
+    height: 150px + 10%;
+    background-color: rgba(0,0,0,0);
+    top:0;
+    z-index:1;
+}
+#aboutthing:hover > div {
+    background-color: #ff474e;
+} 
