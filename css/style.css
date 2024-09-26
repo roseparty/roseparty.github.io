@@ -35,9 +35,9 @@ nav > a:hover{
     /* emulate the font turning into italic */
     transform: skewX(-12deg);
     /* add underline */
-    text-decoration: underline #331832;
+    text-decoration: underline #28666e;
     /* change color */
-    color: #286663;
+    color: #28666e;
 }
 
 nav > a > img:hover {
@@ -116,7 +116,7 @@ a {
 }
 
 #skibadiblurb {
-    background-color: #286663;
+    background-color: #28666e;
     position: relative;
 }
 
@@ -162,16 +162,24 @@ a {
 }
 
 #platformthing:hover #platformDropdown {
-    background-color: #ff474e;
+    background-color: #d81e6b;
     height: calc(200px + 10%);
     transform: skewX(12deg);
 }
 
 #platformthing #platformDropdown a {
     font-size: 0px;
+    color: #331832;
+    text-decoration: underline #d81e6b;
+    transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out;
 }
 #platformthing:hover #platformDropdown a {
     font-size: 18px;
+}
+
+#platformthing:hover #platformDropdown a:hover {
+    transform: skewX(-12deg);
+    text-decoration: underline #28666e;
 }
 
 #platformthing {
