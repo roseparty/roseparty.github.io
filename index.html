@@ -22,20 +22,13 @@
             <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="/roseparty/css/style.css">
         <title>Rose Party</title>
-        <script>
-            document.getElementById("platformDropdown").innerHTML = '<a href="/roseparty/platform#socialjustice">Social Justice</a><br><a href="/roseparty/platform#education">Education</a><br><a href="/roseparty/platform#economy">Economy</a><br><a href="/roseparty/platform#healthcare">Healthcare</a><br><a href="/roseparty/platform#environment">Environment</a><br><a href="/roseparty/platform#foreignpolicy">Foreign Policy</a><br><a href="/roseparty/platform#immigration">Immigration</a><br>'
-        </script>
+        
     </head>
     <body>
         <nav>
             <a href="/roseparty/"><img src="/roseparty/assets/logo.png" alt="Home" style="width: 9vh; height: 9vh; min-width: 50px; min-height: 50px;"></a>
-            <a href="/roseparty/about" id="aboutthing">About</a>
-            <a href="/roseparty/platform" id="platformthing"> <!-- maybe not have it link to anything so that if someone clicks to open the dropdown they dont immediately go to the page -->
-                Platform &#x2304;
-                <div id="platformDropdown">
-                    
-                </div>
-            </a>
+            <a href="/roseparty/about">About</a>
+            <a href="/roseparty/platform" id="platformthing">Platform &#x2304;</a>
         </nav>
         <div id="header">
             <h1>We are the Rose Party</h1>
@@ -50,5 +43,8 @@
             <div id="ellipse"></div>
             <p style="color: #ffffe7;">Bob Skibadi and his VP pick are very sigmalicious. Blah blah blah. Lorem ipsum dolor sit amet. Capaholics, they're also yapaholics. Just put the fries in the bag lil bro. Yapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyap</p>
         </div>
+        <script>
+            document.getElementById("platformDropdown").innerHTML += '<div id="platformDropdown"><a href="/roseparty/platform#socialjustice">Social Justice</a><br><a href="/roseparty/platform#education">Education</a><br><a href="/roseparty/platform#economy">Economy</a><br><a href="/roseparty/platform#healthcare">Healthcare</a><br><a href="/roseparty/platform#environment">Environment</a><br><a href="/roseparty/platform#foreignpolicy">Foreign Policy</a><br><a href="/roseparty/platform#immigration">Immigration</a><br></div>'
+        </script>
     </body>
 </html>
