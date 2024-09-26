@@ -1,5 +1,5 @@
 nav {
-    background-color: #ff474e;
+    background-color: #d81e6b;
     height: 10%;
     min-height: 57px;
     justify-content: center;
@@ -20,7 +20,7 @@ nav > a {
     padding-left: 20px;
     padding-right:20px;
     padding-top: 0px;
-    text-decoration: underline #ff474e;
+    text-decoration: underline #d81e6b;
     color: #000;
     transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out;
     display: flex;
@@ -170,9 +170,21 @@ a {
 #platformthing {
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
+/*#platformthing::after {
+    content: '';
+}*/
+
 .sectionHeader {
-    background-color: red;
+    background-color: #d81e6b;
     text-align: center;
+    margin-top: 20px;
 }
+
+/*#platformthing:hover {
+    #platformthing::after {
+        content: '<div id="platformDropdown" style="background-color: #d81e6b; position: absolute; top: 100%;"><a href="/roseparty/platform#foreignpolicy">Foreign Policy</a><a href="/roseparty/platform#foreignpolicy">Foreign Policy</a></div>';
+    }
+}*\
