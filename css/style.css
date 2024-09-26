@@ -165,20 +165,20 @@ a {
     height: 0;
 }
 
+#platformthing:hover #platformDropdown {
+    background-color: #ff474e;
+    height: calc(150px + 10%);
+    transform: skewX(12deg);
+}
 
-#platformthing:hover {
-    #platformDropdown {
-        background-color: #ff474e;
-        height: calc(150px + 10%);
-        transform: skewX(12deg);
-    }
-    #platformDropdown p, #platformDropdown a {
-        display: initial;
-        height: initial;
-    }
+#platformthing:hover #platformDropdown p,
+#platformthing:hover #platformDropdown a {
+    display: initial;
+    height: initial;
 }
 
 #platformthing {
-    display:flex;
-    justify-content:center;
-} 
+    display: flex;
+    justify-content: center;
+}
+
