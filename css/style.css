@@ -4,7 +4,7 @@ nav {
     min-height: 57px;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+    z-index: 3;
     position: sticky;
     vertical-align: center;
     top: 0;
@@ -121,7 +121,8 @@ a {
 }
 
 #skibadiblurb p {
-    z-index: 0.5;
+    position: relative;
+    z-index: 1;
     padding: 10px;
     padding-top: 0;
 }
@@ -153,7 +154,7 @@ a {
     height: 0;
     background-color: rgba(0,0,0,0);
     top:20px;
-    z-index:1;
+    z-index:2;
     transition: transform 0.3s ease-in;
     display: inline-block;
     position: absolute;
