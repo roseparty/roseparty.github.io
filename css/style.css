@@ -41,7 +41,7 @@ nav > a {
     /* silly custom shape divider from some website */
     .custom-shape-divider-top-1727305868 {
         position: absolute;
-        top: 0;
+        top: 100%;
         left: 0;
         width: 100%;
         overflow: hidden;
@@ -58,7 +58,7 @@ nav > a {
     .custom-shape-divider-top-1727305868 .shape-fill {
         fill: #9EE493;
     }
-    
+
 .poster {
     height: 70%;
     width: 100%;
