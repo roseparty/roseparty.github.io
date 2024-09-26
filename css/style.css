@@ -81,8 +81,8 @@ nav > a > img:hover {
         fill: #9EE493;
     }
 
-.poster {
-    height: 70%;
+#skibadi {
+    height: 80%;
     width: 100%;
     background-image: url("/roseparty/assets/posterskibadi.png");
 }
