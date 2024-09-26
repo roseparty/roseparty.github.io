@@ -58,6 +58,12 @@ nav > a {
     .custom-shape-divider-top-1727305868 .shape-fill {
         fill: #9EE493;
     }
+    
+.poster {
+    height: 70%;
+    width: 100%;
+    background-image: url("/roseparty/assets/posterskibadi.png");
+}
 
 h1 {
     font-size: 50px;
