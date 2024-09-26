@@ -109,7 +109,7 @@ nav > a:hover{
 
 #platformDropdown{
     width:100%;
-    height: calc(150px + 10%);
+    height: 0;
     background-color: rgba(0,0,0,0);
     top:20px;
     z-index:1;
@@ -120,6 +120,7 @@ nav > a:hover{
 #platformthing:hover {
     #platformDropdown {
         background-color: #ff474e;
+        height: calc(150px + 10%);
         transform: skewX(12deg);
     }
 }
