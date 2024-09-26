@@ -150,7 +150,7 @@ a {
 }
 
 #platformDropdown{
-    width:100%;
+    width:150%;
     height: 0;
     content: '';
     background-color: rgba(0,0,0,0);
@@ -163,7 +163,7 @@ a {
 
 #platformthing:hover #platformDropdown {
     background-color: #ff474e;
-    height: calc(150px + 10%);
+    height: calc(250px + 10%);
     transform: skewX(12deg);
 }
 
