@@ -31,6 +31,15 @@ nav > a > img {
     transition: width 0.3s ease, height 0.3s ease;
 }
 
+nav > a:hover{
+    /* emulate the font turning into italic */
+    transform: skewX(-12deg);
+    /* add underline */
+    text-decoration: underline #3b1f2b;
+    /* change color */
+    color: #294936;
+}
+
 nav > a > img:hover {
     width: 10vh;
     height: 10vh;
@@ -104,15 +113,6 @@ p {
 a {
     color: #ffffe7;
     display: inline-block;
-}
-
-nav > a:hover{
-    /* emulate the font turning into italic */
-    transform: skewX(-12deg);
-    /* add underline */
-    text-decoration: underline #3b1f2b;
-    /* change color */
-    color: #294936;
 }
 
 #aboutFirstParagraph{
