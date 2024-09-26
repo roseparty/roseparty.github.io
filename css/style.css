@@ -150,7 +150,7 @@ a {
 }
 
 #platformDropdown{
-    width:150%;
+    width:130%;
     height: 0;
     content: '';
     background-color: rgba(0,0,0,0);
@@ -163,15 +163,15 @@ a {
 
 #platformthing:hover #platformDropdown {
     background-color: #ff474e;
-    height: calc(250px + 10%);
+    height: calc(200px + 10%);
     transform: skewX(12deg);
 }
 
 #platformthing #platformDropdown p {
-    display: none;
+    font-size: 0px;
 }
 #platformthing:hover #platformDropdown p {
-    display: block;
+    font-size: 18px;
 }
 
 #platformthing {
@@ -196,5 +196,6 @@ a {
 }*/
 
 #tableofcontents {
+    margin-top: 0;
     padding-top: 110px;
 }
