@@ -21,7 +21,7 @@ nav > a {
     padding-right:20px;
     padding-top: 0px;
     text-decoration: underline #d81e6b;
-    color: #000;
+    color: #331832;
     transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out;
     display: flex;
     justify-content: center;
@@ -35,9 +35,9 @@ nav > a:hover{
     /* emulate the font turning into italic */
     transform: skewX(-12deg);
     /* add underline */
-    text-decoration: underline #3b1f2b;
+    text-decoration: underline #331832;
     /* change color */
-    color: #294936;
+    color: #286663;
 }
 
 nav > a > img:hover {
@@ -54,7 +54,7 @@ nav > a > img:hover {
     text-align: center;
     font-family: "Staatliches", sans-serif;
     font-weight: 700;
-    color: #000;
+    color: #331832;
     padding-top: 5px;
     padding-bottom: 2px;
     margin-top: 0;
@@ -98,7 +98,7 @@ h2 {
 body {
     margin: 0;
     padding: 0;
-    background-color: #ffffe7;
+    background-color: #e8eded;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -107,16 +107,16 @@ body {
 p {
     padding: 10px;
     font-size: 18px;
-    color: #000;
+    color: #331832;
 }
 
 a {
-    color: #ffffe7;
+    color: #e8eded;
     display: inline-block;
 }
 
 #skibadiblurb {
-    background-color: #294936;
+    background-color: #286663;
     position: relative;
 }
 
@@ -135,7 +135,7 @@ a {
     height: 100px;
     border-radius: 50%;
     transform: translate(0, -50px);
-    background-color: #294936;
+    background-color: #28666e;
 }
 
 #aboutFirstParagraph{
