@@ -125,8 +125,8 @@ nav > a:hover{
 }
 
 #platformDropdown p, #platformDropdown a {
-    height: 0;
     display: none;
+    height: 0;
 }
 
 #platformthing:hover {
@@ -136,8 +136,8 @@ nav > a:hover{
         transform: skewX(12deg);
     }
     #platformDropdown p, #platformDropdown a {
-        height: initial;
         display: initial;
+        height: initial;
     }
 }
 
