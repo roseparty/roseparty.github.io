@@ -22,7 +22,7 @@ nav > a {
     padding-top: 0px;
     text-decoration: underline #d81e6b;
     color: #331832;
-    transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out;
+    transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out, color 0.3s;
     display: flex;
     justify-content: center;
 }
@@ -171,7 +171,7 @@ a {
     font-size: 0px;
     color: #331832;
     text-decoration: underline #d81e6b;
-    transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out;
+    transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out, color 0.3s;
 }
 #platformthing:hover #platformDropdown a {
     font-size: 18px;
@@ -180,6 +180,7 @@ a {
 #platformthing:hover #platformDropdown a:hover {
     transform: skewX(-12deg);
     text-decoration: underline #28666e;
+    color: #28666e;
 }
 
 #platformthing {
