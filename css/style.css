@@ -165,7 +165,7 @@ a {
     background-color: #d81e6b;
     height: calc(200px + 10%);
     transform: skewX(12deg);
-    transform: translate(-70px, 10px);
+    left: -70px;
 }
 
 #platformthing #platformDropdown a {
