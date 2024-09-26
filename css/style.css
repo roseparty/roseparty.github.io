@@ -156,7 +156,7 @@ a {
     background-color: rgba(0,0,0,0);
     top:20px;
     z-index:2;
-    transition: transform 0.3s ease-in;
+    transition: height 0.3s ease-in;
     display: inline-block;
     position: absolute;
 }
@@ -164,7 +164,7 @@ a {
 #platformthing:hover #platformDropdown {
     background-color: #d81e6b;
     height: calc(200px + 10%);
-    transform: skewX(12deg);
+    transform: translate(0, 10px);
 }
 
 #platformthing #platformDropdown a {
