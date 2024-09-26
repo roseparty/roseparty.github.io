@@ -33,8 +33,8 @@ nav > a {
     font-family: "Staatliches", sans-serif;
     font-weight: 700;
     color: #000;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
     margin-top: 0;
 }
 
@@ -135,14 +135,16 @@ nav > a:hover{
         height: calc(150px + 10%);
         transform: skewX(12deg);
     }
+}
+
+#platformthing:hover {
     #platformDropdown p, #platformDropdown a {
         display: initial;
         height: initial;
     }
 }
 
-
-#platformthing{
+#platformthing {
     display:flex;
     justify-content:center;
 } 
