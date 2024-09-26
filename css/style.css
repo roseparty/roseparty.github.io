@@ -167,10 +167,10 @@ a {
     transform: skewX(12deg);
 }
 
-#platformthing #platformDropdown p {
+#platformthing #platformDropdown a {
     font-size: 0px;
 }
-#platformthing:hover #platformDropdown p {
+#platformthing:hover #platformDropdown a {
     font-size: 18px;
 }
 
