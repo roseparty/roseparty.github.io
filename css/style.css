@@ -167,6 +167,13 @@ a {
     transform: skewX(12deg);
 }
 
+#platformthing #platformDropdown p {
+    display: none;
+}
+#platformthing:hover #platformDropdown p {
+    display: block;
+}
+
 #platformthing {
     display: inline-block;
     position: relative;
