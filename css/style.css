@@ -170,7 +170,6 @@ a {
 #platformthing {
     display: inline-block;
     justify-content: center;
-    position: relative;
 }
 
 /*#platformthing::after {
