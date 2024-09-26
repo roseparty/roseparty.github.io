@@ -164,7 +164,8 @@ a {
 #platformthing:hover #platformDropdown {
     background-color: #d81e6b;
     height: calc(200px + 10%);
-    transform: translate(0, 10px);
+    transform: skewX(12deg);
+    transform: translate(-50px, 10px);
 }
 
 #platformthing #platformDropdown a {
