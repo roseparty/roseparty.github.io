@@ -193,4 +193,8 @@ a {
     #platformthing::after {
         content: '<div id="platformDropdown" style="background-color: #d81e6b; position: absolute; top: 100%;"><a href="/roseparty/platform#foreignpolicy">Foreign Policy</a><a href="/roseparty/platform#foreignpolicy">Foreign Policy</a></div>';
     }
-}*\
+}*/
+
+#tableofcontents {
+    padding-top: 110px;
+}
