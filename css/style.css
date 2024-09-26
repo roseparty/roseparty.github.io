@@ -173,3 +173,6 @@ a {
     justify-content: center;
 }
 
+.sectionHeader {
+    background-color: red;
+    text-align: center;
