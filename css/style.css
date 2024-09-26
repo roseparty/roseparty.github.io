@@ -1,6 +1,7 @@
 nav {
     background-color: #ff474e;
     height: 10%;
+    min-height: 57px;
     justify-content: center;
     align-items: center;
     z-index: 2;
@@ -24,6 +25,10 @@ nav > a {
     transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out;
     display: flex;
     justify-content: center;
+}
+
+nav > a > img {
+    transition: none;
 }
 
 #header {
