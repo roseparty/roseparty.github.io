@@ -28,7 +28,15 @@ nav > a {
 }
 
 nav > a > img {
-    transition: none;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+nav > a > img:hover {
+    width: 10vh;
+    height: 10vh;
+    min-width: 55px;
+    min-height: 55px;
+    transform: none;
 }
 
 #header {
