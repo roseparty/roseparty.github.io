@@ -124,6 +124,7 @@ a {
     background-color: #28666e;
     position: relative;
     top: -10px;
+    margin-top: 0;
 }
 
 #skibadiblurb p {
