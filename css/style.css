@@ -137,7 +137,10 @@ a {
 #skibadiblurb h2 {
     position: absolute;
     z-index: 1;
-    top: -17.5px;
+    margin-top: 0;
+    top: -30px;
+    left: 50%;
+    right: 50%;
 }
 
 #ellipse {
