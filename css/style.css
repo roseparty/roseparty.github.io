@@ -190,7 +190,7 @@ a {
 }
 
 #platformthing {
-    display: inline-block;
+    display: flex;
     position: relative;
 }
 
