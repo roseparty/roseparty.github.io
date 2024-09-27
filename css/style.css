@@ -92,12 +92,16 @@ nav > a > img:hover {
 }
 
 h1 {
+    padding: 15px;
+    margin: 0;
     font-size: 50px;
     z-index: 1;
+    font-family: "Staatliches", sans-serif;
 }
 
 h2 {
     font-size: 35px;
+    font-family: "Staatliches", sans-serif;
 }
 
 body {
@@ -125,6 +129,7 @@ a {
     position: relative;
     top: -10px;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 #skibadiblurb p {
@@ -136,7 +141,7 @@ a {
 
 #skibadih2 {
     position: absolute;
-    top: -50px;
+    top: -70px;
     z-index: 2;
     padding-bottom: 0;
     text-align: center;
