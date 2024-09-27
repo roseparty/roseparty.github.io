@@ -134,15 +134,6 @@ a {
     padding-top: 0;
 }
 
-#skibadiblurb h2 {
-    position: absolute;
-    z-index: 1;
-    margin-top: 0;
-    top: -40px;
-    width: 100px;
-    left: calc(50% - 50px);
-}
-
 #ellipse {
     position: absolute;
     top: 0;
