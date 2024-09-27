@@ -174,7 +174,7 @@ a {
 
 #platformthing #platformDropdown a {
     font-size: 0px;
-    color: #331832;
+    color: #e8eded;
     text-decoration: underline #d81e6b;
     transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out, color 0.3s;
 }
@@ -184,8 +184,7 @@ a {
 
 #platformthing:hover #platformDropdown a:hover {
     transform: skewX(-12deg);
-    text-decoration: underline #28666e;
-    color: #28666e;
+    text-decoration: underline #e8eded;
 }
 
 #platformthing {
