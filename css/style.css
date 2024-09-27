@@ -134,6 +134,11 @@ a {
     padding-top: 0;
 }
 
+#skibadih2 {
+    z-index: 1;
+    padding-bottom: 0;
+}
+
 #ellipse {
     position: absolute;
     top: 0;
