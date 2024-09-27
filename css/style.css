@@ -160,7 +160,7 @@ a {
     height: 0;
     content: '';
     background-color: rgba(0,0,0,0);
-    top:20px;
+    top:10px;
     z-index:2;
     transition: height 0.3s ease-in;
     display: inline-block;
