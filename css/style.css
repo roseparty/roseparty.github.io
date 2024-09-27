@@ -138,9 +138,9 @@ a {
     position: absolute;
     z-index: 1;
     margin-top: 0;
-    top: -30px;
-    left: 50%;
-    right: 50%;
+    top: -40px;
+    width: 100px;
+    left: calc(50% - 50px);
 }
 
 #ellipse {
