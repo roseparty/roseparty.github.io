@@ -134,6 +134,12 @@ a {
     padding-top: 0;
 }
 
+#skibadiblurb h2 {
+    position: absolute;
+    z-index: 1;
+    top: -17.5px;
+}
+
 #ellipse {
     position: absolute;
     top: 0;
