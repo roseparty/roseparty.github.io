@@ -24,11 +24,12 @@ nav > a {
     color: #e8eded;
     transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out, color 0.3s;
     display: flex;
-    justify-content: center;
+    float: right;
 }
 
 nav > a > img {
     transition: width 0.3s ease, height 0.3s ease, transform 0s;
+    float: left;
 }
 
 nav > a:hover{
