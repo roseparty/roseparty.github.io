@@ -21,7 +21,7 @@ nav > a {
     padding-right:20px;
     padding-top: 0px;
     text-decoration: underline #d81e6b;
-    color: #331832;
+    color: #e8eded;
     transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out, color 0.3s;
     display: flex;
     justify-content: center;
@@ -35,9 +35,7 @@ nav > a:hover{
     /* emulate the font turning into italic */
     transform: skewX(-12deg);
     /* add underline */
-    text-decoration: underline #28666e;
-    /* change color */
-    color: #28666e;
+    text-decoration: underline #e8eded;
 }
 
 nav > a > img:hover {
@@ -125,6 +123,7 @@ a {
 #skibadiblurb {
     background-color: #28666e;
     position: relative;
+    top: -10px;
 }
 
 #skibadiblurb p {
@@ -139,7 +138,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 150px;
     border-radius: 50%;
     transform: translate(0, -50px);
     background-color: #28666e;
