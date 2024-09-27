@@ -84,10 +84,13 @@ nav > a > img:hover {
 #skibadi {
     height: 80%;
     width: 100%;
-    background-color: rgba(0,0,0,0);
-    background-image: url("/roseparty/assets/posterskibadi.png");
     display: block;
     color: rgba(0,0,0,0);
+}
+
+#skibadi img {
+    height: 100%;
+    width: 100%;
 }
 
 h1 {
