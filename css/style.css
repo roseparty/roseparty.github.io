@@ -193,7 +193,7 @@ a {
 #platformthing {
     display: flex;
     position: relative;
-    top: -1px;
+    top: -3px;
 }
 
 /*#platformthing::after {
