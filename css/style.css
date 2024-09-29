@@ -24,8 +24,12 @@ nav > a {
 nav .floatrightnav {
     float: right;
     display: flex;
-    height: 100%;
+    height: 10vh;
     vertical-align: center;
+}
+
+nav .floatrightnav span {
+    transform: translate(0, 30%);
 }
 
 nav > .floatleftnav > img {
@@ -215,7 +219,6 @@ a {
 #platformthing {
     display: flex;
     position: relative;
-    top: -2px;
 }
 
 /*#platformthing::after {
