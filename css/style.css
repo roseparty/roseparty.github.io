@@ -2,15 +2,12 @@ nav {
     background-color: #d81e6b;
     height: 10%;
     min-height: 57px;
-    align-items: center;
     z-index: 4;
     position: sticky;
-    vertical-align: center;
     top: 0;
     width: 100%;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    display: flex;
     margin: 0;
 }
 
@@ -21,15 +18,17 @@ nav > a {
     text-decoration: underline #d81e6b;
     color: #e8eded;
     transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out, color 0.3s;
-    display: flex;
     text-align: center;
 }
 
 nav .floatrightnav {
     float: right;
+    display: flex;
+    height: 100%;
+    vertical-align: center;
 }
 
-nav .floatleftnav {
+nav > .floatleftnav > img {
     transition: width 0.3s ease, height 0.3s ease, transform 0s;
     float: left;
     text-align: center;
