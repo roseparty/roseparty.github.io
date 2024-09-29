@@ -19,6 +19,7 @@ nav > a {
     color: #e8eded;
     transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out, color 0.3s;
     text-align: center;
+    height: 10vh;
 }
 
 nav .floatrightnav {
@@ -34,11 +35,11 @@ nav > .floatleftnav > img {
     transition: width 0.3s ease, height 0.3s ease, transform 0s;
     float: left;
     text-align: center;
-    width: 10vh;
-    height: 10vh;
+    width: 9vh;
+    height: 9vh;
     min-width: 55px;
     min-height: 55px;
-    transform: translate(0, 1px);
+    transform: translate(0, 0.5vh);
 }
 
 nav > a:hover{
@@ -113,6 +114,8 @@ h2 {
 }
 
 body {
+    position: relative;
+    top: 10vh;
     margin: 0;
     padding: 0;
     background-color: #e8eded;
