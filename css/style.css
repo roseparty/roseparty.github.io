@@ -25,7 +25,8 @@ nav .floatrightnav {
     float: right;
     display: flex;
     height: 10vh;
-    vertical-align: center;
+    min-height: 55px;
+    transform: translate(0, 1px);
 }
 
 nav .floatrightnav span {
