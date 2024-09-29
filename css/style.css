@@ -23,10 +23,13 @@ nav > a {
     transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out, color 0.3s;
     display: flex;
     text-align: center;
+}
+
+nav .floatrightnav {
     float: right;
 }
 
-nav > a > img {
+nav .floatleftnav {
     transition: width 0.3s ease, height 0.3s ease, transform 0s;
     float: left;
     text-align: center;
