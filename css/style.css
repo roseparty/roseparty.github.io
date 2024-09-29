@@ -24,9 +24,6 @@ nav > a {
 nav .floatrightnav {
     float: right;
     display: flex;
-    height: 10vh;
-    min-height: 55px;
-    transform: translate(0, 1px);
 }
 
 nav .floatrightnav span {
@@ -41,6 +38,7 @@ nav > .floatleftnav > img {
     height: 10vh;
     min-width: 55px;
     min-height: 55px;
+    transform: translate(0, 1px);
 }
 
 nav > a:hover{
