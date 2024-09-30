@@ -57,7 +57,7 @@ nav > a:hover{
     text-decoration: underline #e8eded;
 }
 
-nav > a > img:hover {
+nav > .floatleftnav > img:hover {
     transform: skewX(12deg);
     top: 0.5vh;
 }
