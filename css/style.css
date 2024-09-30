@@ -104,6 +104,7 @@ h1 {
     z-index: 1;
     font-family: "Staatliches", sans-serif;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -111,6 +112,7 @@ h2 {
     font-family: "Staatliches", sans-serif;
     text-align: center;
     margin: 15px;
+    letter-spacing: 1px;
 }
 
 body {
@@ -256,13 +258,13 @@ a {
 #aboutrose p {
     margin-top: 0;
     margin-bottom: 0;
-    color: #e8eded;
+    color: #331832;
 }
 
 #externalbuttonthing {
-    height: 4vh;
-    top: 0.5vh;
-    background-color: #28666e;
+    height: 8vh;
+    top: 1vh;
+    background-color: #e8eded;
     border-radius: 0.5vh;
     color: #e8eded;
 }
