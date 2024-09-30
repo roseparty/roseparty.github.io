@@ -262,6 +262,7 @@ a {
 }
 
 #externalbuttonthing {
+    position: relative;
     height: 8vh;
     top: 1vh;
     background-color: #28666e;
