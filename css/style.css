@@ -104,6 +104,7 @@ h1 {
     z-index: 1;
     font-family: "Staatliches", sans-serif;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -111,6 +112,7 @@ h2 {
     font-family: "Staatliches", sans-serif;
     text-align: center;
     margin: 15px;
+    letter-spacing: 1px;
 }
 
 body {
