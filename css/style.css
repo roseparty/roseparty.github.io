@@ -31,6 +31,10 @@ nav .floatrightnav span {
     transform: translate(0, 30%);
 }
 
+nav .unspecialnav span {
+    transform: translate(0, 40%);
+}
+
 nav > .floatleftnav > img {
     transition: width 0.3s ease, height 0.3s ease, transform 0s;
     position: relative;
@@ -271,7 +275,7 @@ a {
     height: 8vh;
     top: 1vh;
     background-color: #28666e;
-    border-radius: 0.5vh;
+    border-radius: 1vh;
     color: #e8eded;
     text-decoration: underline #28666e;
 }
