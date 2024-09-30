@@ -32,7 +32,9 @@ nav .floatrightnav span {
 }
 
 nav .unspecialnav span {
-    transform: translate(0, 38%);
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 39%);
+    -moz-transform: translate(0, 0);
 }
 
 nav > .floatleftnav > img {
