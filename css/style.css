@@ -33,7 +33,7 @@ nav .floatrightnav span {
 
 nav .unspecialnav span {
     transform: translate(0, 30%);
-    -webkit-transform: translate(0, 39.5%);
+    -webkit-transform: translate(0, 39%);
     -moz-transform: translate(0, 30%);
 }
 
