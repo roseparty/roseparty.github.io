@@ -263,6 +263,7 @@ a {
 }
 
 #externalbuttonthing {
+    padding-top: 0;
     position: relative;
     height: 8vh;
     top: 1vh;
