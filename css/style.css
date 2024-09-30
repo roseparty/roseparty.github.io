@@ -203,6 +203,7 @@ a {
 #platformthing:hover #platformDropdown {
     background-color: #d81e6b;
     height: calc(200px + 10%);
+    width: 150px;
     transform: skewX(12deg);
     left: 0;
 }
@@ -268,4 +269,5 @@ a {
     background-color: #28666e;
     border-radius: 0.5vh;
     color: #e8eded;
+    text-decoration: underline #28666e;
 }
