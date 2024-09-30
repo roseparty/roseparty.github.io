@@ -256,13 +256,13 @@ a {
 #aboutrose p {
     margin-top: 0;
     margin-bottom: 0;
-    color: #e8eded;
+    color: #331832;
 }
 
 #externalbuttonthing {
     height: 4vh;
     top: 0.5vh;
-    background-color: #28666e;
+    background-color: #e8eded;
     border-radius: 0.5vh;
     color: #e8eded;
 }
