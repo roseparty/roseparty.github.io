@@ -38,7 +38,6 @@ nav .unspecialnav span {
 }
 
 nav > img {
-    transition: width 0.3s ease, height 0.3s ease, transform 0s;
     position: relative;
     top: 0.5vh;
     float: left;
@@ -47,14 +46,7 @@ nav > img {
     height: 9vh;
     min-width: 55px;
     min-height: 55px;
-    transform: translate(0, 0.5vh);
-}
-
-.floatleftnav{
-    /* emulate the font turning into italic */
-    transform: skewX(-12deg);
-    /* add underline */
-    text-decoration: underline #e8eded;
+    left: 0.5vh;
 }
 
 .floatrighttnav{
@@ -62,11 +54,6 @@ nav > img {
     transform: skewX(-12deg);
     /* add underline */
     text-decoration: underline #e8eded;
-}
-
-nav > .floatleftnav > img:hover {
-    transform: skewX(12deg);
-    top: 0.5vh;
 }
 
 #header {
