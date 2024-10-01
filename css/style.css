@@ -31,8 +31,16 @@ nav .floatrightnav span {
     transform: translate(0, 30%);
 }
 
+nav .unspecialnav span {
+    transform: translate(0, 30%);
+    -moz-transform: translate(0, 0);
+    -webkit-transform: translate(0, 39%);
+}
+
 nav > .floatleftnav > img {
     transition: width 0.3s ease, height 0.3s ease, transform 0s;
+    position: relative;
+    top: 0.5vh;
     float: left;
     text-align: center;
     width: 9vh;
@@ -56,8 +64,9 @@ nav > .floatleftnav > img {
     text-decoration: underline #e8eded;
 }
 
-nav > a > img:hover {
+nav > .floatleftnav > img:hover {
     transform: skewX(12deg);
+    top: 0.5vh;
 }
 
 #header {
@@ -132,6 +141,7 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     overflow-x: hidden;
+    width: 100%;
 }
 
 p {
@@ -184,15 +194,14 @@ a {
     background-color: #28666e;
 }
 
-#aboutFirstParagraph{
+#aboutFirstParagraph {
     width: 80%;
     justify-content: center;
 }
 
 #aboutContainer {
-    display:flex;
-    justify-content:center;
-    width:100%;
+    text-align: center;
+    width: 100%;
 }
 
 #platformDropdown{
@@ -210,8 +219,9 @@ a {
 #platformthing:hover #platformDropdown {
     background-color: #d81e6b;
     height: calc(200px + 10%);
+    width: 150px;
     transform: skewX(12deg);
-    left: 0;
+    left: 5em;
 }
 
 #platformthing #platformDropdown a {
@@ -265,13 +275,21 @@ a {
 #aboutrose p {
     margin-top: 0;
     margin-bottom: 0;
-    color: #331832;
+    color: #e8eded;
 }
 
 #externalbuttonthing {
+    padding-top: -0.1vh;
+    position: relative;
     height: 8vh;
     top: 1vh;
     background-color: #28666e;
-    border-radius: 0.5vh;
+    border-radius: 1vh;
     color: #e8eded;
+    text-decoration: underline #28666e;
+}
+
+.platformText {
+    color: #e8eded;
+    text-align: center;
 }

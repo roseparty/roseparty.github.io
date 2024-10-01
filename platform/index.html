@@ -6,6 +6,7 @@
         <meta name="keywords" content="HTML, CSS, JavaScript">
         <meta name="author" content="Web Designers of the Rose Party">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/roseparty/assets/logo.png"> 
         <!-- fonts -->
             <!-- inter -->
             <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,9 +41,9 @@
             <a href="/roseparty/" class="floatleftnav"><img src="/roseparty/assets/logo.png" alt="Home"></a>
             <!-- everything we want to float right has to be in reverse order as we want it to appear e.g. about is last in the html whereas it appears first in the actual navbar -->
             <div style="width: 2vw; margin: 0; padding: 0; height: 10vw;" class="floatrightnav"></div>
-            <a href=" idk poll link " target="_blank" id="externalbuttonthing" class="floatrightnav"><span>Poll &#x2197;</span><a>
+            <a href="https://docs.google.com/forms/d/1MZmk5GdyecCtwJqSYNubEgi5gf21uo4HSLBDzLK7lYU/edit" target="_blank" id="externalbuttonthing" class="floatrightnav"><span>Poll &#x2197;</span><a>
             <a href="/roseparty/platform" id="platformthing" class="floatrightnav"><span>WHAT WE STAND FOR &#x2304;</span></a>
-            <a href="/roseparty/about" class="floatrightnav"><span>WHO WE ARE</span></a>
+            <a href="/roseparty/about" class="floatrightnav unspecialnav"><span>WHO WE ARE</span></a>
         </nav>
         <div id="header">
             <h1>The Rose Party Platform</h1>
@@ -55,15 +56,60 @@
         <div class="sectionHeader" id="tableofcontents">
             <h2>Table of Contents</h2>
         </div>
-        <ol>
-            <li>Social Justice</li>
-            <li>Education</li>
-            <li>Economy</li>
-            <li>Healthcare</li>
-            <li>Environment</li>
-            <li>Foreign Policy</li>
-            <li>Immigration</li>
-        </ol>
+        <span class="platformText">
+            <ol>
+                <li><a href="#socialjustice">Social Justice</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#economy">Economy</a></li>
+                <li><a href="#healthcare">Healthcare</a></li>
+                <li><a href="#environment">Environment</a></li>
+                <li><a href="#foreignpolicy">Foreign Policy</a></li>
+                <li><a href="#immigration">Immigration</a></li>
+            </ol>
+        </span>
+        <div class="sectionHeader" id="socialjustice">
+            <h2>Social Justice</h2>
+        </div>
+        <span class="platformText">
+            <p>placeholder</p>
+        </span>
+        <div class="sectionHeader" id="education">
+            <h2>Education</h2>
+        </div>
+        <span class="platformText">
+            <p>placeholder</p>
+        </span>
+        <div class="sectionHeader" id="economy">
+            <h2>Economy</h2>
+        </div>
+        <span class="platformText">
+            <p>placeholder</p>
+        </span>
+        <div class="sectionHeader" id="healthcare">
+            <h2>Healthcare</h2>
+        </div>
+        <span class="platformText">
+            <p>placeholder</p>
+        </span>
+        <div class="sectionHeader" id="environment">
+            <h2>Environment</h2>
+        </div>
+        <span class="platformText">
+            <p>placeholder</p>
+        </span>
+        <div class="sectionHeader" id="foreignpolicy">
+            <h2>Foreign Policy</h2>
+        </div>
+        <span class="platformText">
+            <p>placeholder</p>
+        </span>
+        <div class="sectionHeader" id="immigration">
+            <h2>Immigration</h2>
+        </div>
+        <span class="platformText">
+            <p>placeholder</p>
+        </span>
+        
         <script>
             document.getElementById("platformthing").innerHTML += '<div id="platformDropdown"><a href="/roseparty/platform#socialjustice">Social Justice</a><br><a href="/roseparty/platform#education">Education</a><br><a href="/roseparty/platform#economy">Economy</a><br><a href="/roseparty/platform#healthcare">Healthcare</a><br><a href="/roseparty/platform#environment">Environment</a><br><a href="/roseparty/platform#foreignpolicy">Foreign Policy</a><br><a href="/roseparty/platform#immigration">Immigration</a><br></div>'
         </script>
