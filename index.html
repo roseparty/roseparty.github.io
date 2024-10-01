@@ -26,7 +26,11 @@
     </head>
     <body>
         <nav>
-            <a href="/roseparty/" class="floatleftnav"><img src="/roseparty/assets/logo.png" alt="Home"></a>
+            <!-- what if i make this image outside the a and use an image map to make it clickable so the styling for <a>s doesnt apply -->
+            <img src="/roseparty/assets/logo.png" alt="Home" usemap="#logomap">
+            <map name="logomap">
+                <area shape="circle" coords="27, 27, 27" href="/roseparty/">
+            </map>
             <!-- everything we want to float right has to be in reverse order as we want it to appear e.g. about is last in the html whereas it appears first in the actual navbar -->
             <div style="width: 2vw; margin: 0; padding: 0; height: 10vw;" class="floatrightnav"></div>
             <a href="https://docs.google.com/forms/d/1MZmk5GdyecCtwJqSYNubEgi5gf21uo4HSLBDzLK7lYU/edit" target="_blank" id="externalbuttonthing" class="floatrightnav"><span>Poll &#x2197;</span><a>
