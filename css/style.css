@@ -42,10 +42,10 @@ nav > img {
     top: 1vh;
     float: left;
     text-align: center;
-    width: 18vh;
-    height: 18vh;
-    min-width: 110px;
-    min-height: 110px;
+    width: 14vh;
+    height: 14vh;
+    min-width: 80px;
+    min-height: 80px;
     left: 1vh;
 }
 
