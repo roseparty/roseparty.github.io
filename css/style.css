@@ -49,7 +49,7 @@ nav > img {
     left: 0.5vh;
 }
 
-.floatrighttnav{
+.floatrighttnav:hover {
     /* emulate the font turning into italic */
     transform: skewX(-12deg);
     /* add underline */
