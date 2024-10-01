@@ -283,5 +283,6 @@ a {
 }
 
 .platformText {
-    color: #e8eded;
+    text-color: #e8eded;
+    text-align: center;
 }
