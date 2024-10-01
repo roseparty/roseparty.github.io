@@ -181,13 +181,13 @@ a {
     background-color: #28666e;
 }
 
-#aboutFirstParagraph {
+.aboutFirstParagraph {
     width: 80%;
     margin-left: 10vw;
     text-align: center;
 }
 
-#aboutContainer {
+.aboutContainer {
     text-align: center;
     width: 100%;
 }
