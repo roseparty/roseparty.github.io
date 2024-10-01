@@ -42,7 +42,14 @@ nav > .floatleftnav > img {
     transform: translate(0, 0.5vh);
 }
 
-nav > a:hover{
+.floatleftnav{
+    /* emulate the font turning into italic */
+    transform: skewX(-12deg);
+    /* add underline */
+    text-decoration: underline #e8eded;
+}
+
+.floatrighttnav{
     /* emulate the font turning into italic */
     transform: skewX(-12deg);
     /* add underline */
