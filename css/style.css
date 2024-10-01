@@ -37,7 +37,7 @@ nav .unspecialnav span {
     -webkit-transform: translate(0, 39%);
 }
 
-nav > .floatleftnav > img {
+nav > img {
     transition: width 0.3s ease, height 0.3s ease, transform 0s;
     position: relative;
     top: 0.5vh;
