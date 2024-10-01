@@ -196,7 +196,8 @@ a {
 
 #aboutFirstParagraph {
     width: 80%;
-    justify-content: center;
+    margin-left: 10vw;
+    text-align: center;
 }
 
 #aboutContainer {
