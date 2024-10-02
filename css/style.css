@@ -259,6 +259,7 @@ a {
     position: relative;
     top: -55px;
     width: 100%;
+    margin-left: 0;
 }
 
 #aboutrose {
