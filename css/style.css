@@ -293,6 +293,7 @@ a {
 .platformText a {
     color: #331832;
     text-decoration: underline #331832;
+    transition: all 0.3s ease;
 }
 
 .platformText a:hover {
