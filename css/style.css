@@ -237,9 +237,13 @@ a {
 }*/
 
 .sectionHeader {
-    background-color: #d81e6b;
+    background-color: #e788a8;
     text-align: center;
     margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 /*#platformthing:hover {
@@ -254,16 +258,16 @@ a {
 }
 
 #aboutrose {
-    background-color: #331832;
+    background-color: #e8eded;
     padding-top: 10px;
     margin-top: 0;
-    color: #e8eded;
+    color: #331832;
 }
 
 #aboutrose p {
     margin-top: 0;
     margin-bottom: 0;
-    color: #e8eded;
+    color: #331832;
 }
 
 #externalbuttonthing {
