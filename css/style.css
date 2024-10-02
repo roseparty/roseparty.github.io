@@ -255,6 +255,7 @@ a {
 #tableofcontents {
     margin-top: 0;
     padding-top: 110px;
+    color: #331832;
 }
 
 #aboutrose {
@@ -282,6 +283,16 @@ a {
 }
 
 .platformText {
-    color: #e8eded;
+    color: #331832;
     text-align: center;
+}
+
+.platformText a {
+    color: #331832;
+    text-decoration: underline #331832;
+}
+
+.platformText a:hover {
+    color: #28666e;
+    text-decoration: none;
 }
