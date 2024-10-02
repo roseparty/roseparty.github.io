@@ -252,10 +252,9 @@ a {
 
 #tableofcontents {
     margin-top: 0;
-    padding-top: 110px;
+    padding-top: 55px;
     color: #331832;
     position: relative;
-    top: -55px;
     width: 100%;
     margin-left: 0;
     z-index: 0;
