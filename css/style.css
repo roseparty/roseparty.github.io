@@ -17,7 +17,7 @@ nav > a {
     padding-top: 0px;
     text-decoration: underline #d81e6b;
     color: #e8eded;
-    transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out, color 0.3s;
+    transition: transform 0.1s ease-in, text-decoration 0.4s ease-in-out, color 0.3s;
     text-align: center;
     height: 10vh;
 }
@@ -216,7 +216,7 @@ a {
     font-size: 0px;
     color: #e8eded;
     text-decoration: underline #d81e6b;
-    transition: transform 0.3s ease-in, text-decoration 0.7s ease-in-out, color 0.3s;
+    transition: transform 0.1s ease-in, text-decoration 0.4s ease-in-out, color 0.3s;
 }
 #platformthing:hover #platformDropdown a {
     font-size: 18px;
