@@ -256,6 +256,9 @@ a {
     margin-top: 0;
     padding-top: 110px;
     color: #331832;
+    position: relative;
+    top: -55px;
+    width: 100%;
 }
 
 #aboutrose {
@@ -295,4 +298,8 @@ a {
 .platformText a:hover {
     color: #28666e;
     text-decoration: none;
+}
+
+ol.platformText li {
+    list-style-type: none;
 }
