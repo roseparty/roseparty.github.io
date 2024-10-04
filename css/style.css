@@ -312,3 +312,13 @@ footer {
     text-align: center;
     height: 10%;
 }
+
+footer a {
+    color: #e8eded;
+    text-decoration: underline #e8eded;
+    transition: text-decoration 0.1s;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
