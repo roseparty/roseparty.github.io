@@ -284,6 +284,10 @@ a {
     text-decoration: underline #28666e;
 }
 
+#externalbuttonthing span {
+    transform: translate(0, calc(30% - 1vh));
+}
+
 .platformText {
     color: #331832;
     text-align: center;
