@@ -287,6 +287,8 @@ a {
 .platformText {
     color: #331832;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .platformText a {
