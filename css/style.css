@@ -252,12 +252,13 @@ a {
 
 #tableofcontents {
     margin-top: 0;
-    padding-top: 55px;
+    padding-top: 25px;
     color: #331832;
     position: relative;
     width: 100%;
     margin-left: 0;
     z-index: 0;
+    text-align: center;
 }
 
 #aboutrose {
