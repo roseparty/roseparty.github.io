@@ -303,3 +303,12 @@ a {
 ol.platformText li {
     list-style-type: none;
 }
+
+footer {
+    width: 100%;
+    background-color: #331832;
+    color: #e8eded;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    height: 10%;
+}
