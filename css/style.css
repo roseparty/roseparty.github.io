@@ -304,6 +304,8 @@ a {
 
 ol.platformText li {
     list-style-type: none;
+    position: relative;
+    left: -5px;
 }
 
 footer {
