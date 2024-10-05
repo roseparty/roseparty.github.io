@@ -285,7 +285,7 @@ a {
 }
 
 #externalbuttonthing span {
-    transform: translate(0, calc(30% - 1vh));
+    transform: translate(0, 25%);
 }
 
 .platformText {
