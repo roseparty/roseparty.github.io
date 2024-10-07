@@ -275,9 +275,13 @@ a {
 
 .platformText {
     color: #331832;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    text-align: justify;
+    display:flex;
+    justify-content: center;
+    text-justify:unset;
+    padding-left: 70px;
+    padding-right: 70px;
+
 }
 
 .platformText a {
