@@ -298,6 +298,17 @@ a {
     text-decoration: none;
 }
 
+ol a {
+    color: #331832;
+    text-decoration: underline #331832;
+    transition: all 0.3s ease;
+}
+
+ol a:hover {
+    color: #28666e;
+    text-decoration: none;
+}
+
 ol {
     color: #331832;
     padding-left: 65px;
@@ -307,6 +318,8 @@ ol {
 
 ol li {
     list-style-type: none;
+    width: 100%;
+    text-align: center;
 }
 
 footer {
