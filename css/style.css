@@ -283,8 +283,8 @@ a {
     display:flex;
     justify-content: center;
     text-justify:unset;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
 .platformText a {
