@@ -6,7 +6,7 @@
         <meta name="keywords" content="HTML, CSS, JavaScript">
         <meta name="author" content="Web Designers of the Rose Party"><!-- we should get the actual names of the characters we made on here for the silly -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="/roseparty/assets/logo.png"> 
+        <link rel="icon" href="/assets/logo.png"> 
         <!-- fonts -->
             <!-- inter -->
             <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,20 +20,20 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="/roseparty/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
         <title>About the Rose Party</title>
     </head>
     <body>
         <nav>
-            <img src="/roseparty/assets/logo.png" alt="Home" usemap="#logomap">
+            <img src="/assets/logo.png" alt="Home" usemap="#logomap">
             <map name="logomap">
-                <area shape="circle" coords="40, 40, 40" href="/roseparty/">
+                <area shape="circle" coords="40, 40, 40" href="/">
             </map>
             <!-- everything we want to float right has to be in reverse order as we want it to appear e.g. about is last in the html whereas it appears first in the actual navbar -->
             <div style="width: 2vw; margin: 0; padding: 0; height: 10vw;" class="floatrightnav"></div>
             <a href="https://docs.google.com/forms/d/1MZmk5GdyecCtwJqSYNubEgi5gf21uo4HSLBDzLK7lYU/" target="_blank" id="externalbuttonthing" class="floatrightnav"><span>Poll &#x2197;</span><a>
-            <a href="/roseparty/platform" id="platformthing" class="floatrightnav"><span>WHAT WE STAND FOR ▼</span></a>
-            <a href="/roseparty/about" class="floatrightnav unspecialnav"><span>WHO WE ARE</span></a>
+            <a href="/platform" id="platformthing" class="floatrightnav"><span>WHAT WE STAND FOR ▼</span></a>
+            <a href="/about" class="floatrightnav unspecialnav"><span>WHO WE ARE</span></a>
         </nav>
         <div id="header">
             <h1>About the Rose Party</h1>
@@ -54,11 +54,11 @@
             </p>
         </div>
         <footer>
-            🄯 The Rose Party. All rights defended. <a href="/roseparty/">Home</a> <a href="/roseparty/about">About</a> <a href="/roseparty/platform">Platform</a> <a href="/roseparty/sitemap.htm">Site Map</a>
+            🄯 The Rose Party. All rights defended. <a href="/">Home</a> <a href="/about">About</a> <a href="/platform">Platform</a> <a href="/sitemap.htm">Site Map</a>
         </footer>
 
         <script>
-            document.getElementById("platformthing").innerHTML += '<div id="platformDropdown"><a href="/roseparty/platform#socialjustice">Social Justice</a><br><a href="/roseparty/platform#education">Education</a><br><a href="/roseparty/platform#economy">Economy</a><br><a href="/roseparty/platform#healthcare">Healthcare</a><br><a href="/roseparty/platform#environment">Environment</a><br><a href="/roseparty/platform#foreignpolicy">Foreign Policy</a><br><a href="/roseparty/platform#immigration">Immigration</a><br></div>'
+            document.getElementById("platformthing").innerHTML += '<div id="platformDropdown"><a href="/platform#socialjustice">Social Justice</a><br><a href="/platform#education">Education</a><br><a href="/platform#economy">Economy</a><br><a href="/platform#healthcare">Healthcare</a><br><a href="/platform#environment">Environment</a><br><a href="/platform#foreignpolicy">Foreign Policy</a><br><a href="/platform#immigration">Immigration</a><br></div>'
         </script>
     </body>
 </html>
