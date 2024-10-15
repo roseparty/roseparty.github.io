@@ -352,3 +352,17 @@ footer a:hover {
     margin-right: 0px;
     width: 100%;
 }
+#backToTop{
+    text-decoration: none;
+    text-align:center;
+}
+#backContainer{
+    background-color: #d81e6b;
+    border-radius: 20px;
+    height:10px;
+    width: 200px;
+    text-align:center;
+    top:25%;
+    position: fixed;
+    visibility: hidden;
+}
