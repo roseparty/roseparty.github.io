@@ -166,13 +166,17 @@ Our goal is to make communities safer and connected, and further unite the peopl
                 );
             }
             var sillyThing = document.getElementById("backContainer")
-            while(true){
+            function doCheck(){
                 if(isElementInViewport(document.getElementById("backContainer"))){
                     sillyThing.style.visibility = "hidden"
                 }else{
                     sillyThing.style.visibility = "visible"
                 }
+                setTimeout(() => {
+                    doCheck()
+                }, 650);
             }  
+            
         </script>
     </body>
 </html>
