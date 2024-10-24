@@ -359,8 +359,8 @@ footer a:hover {
 #backContainer{
     background-color: #d81e6b;
     border-radius: 20px;
-    height:10px;
-    width: 200px;
+    height:20px;
+    width: 250px;
     text-align:center;
     top:25%;
     position: fixed;
