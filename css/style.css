@@ -145,6 +145,7 @@ a {
     background-color: #28666e;
     position: relative;
     margin-top: 0;
+    padding-left: 0;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -160,8 +161,11 @@ a {
 }
 
 #skibadih2 {
+    color: #e8eded;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 700;
     padding: 10px;
-    padding-left: 0px;
+    padding-left: 0;
     padding-top: 20px;
     text-align: center;
     width: 100%;
