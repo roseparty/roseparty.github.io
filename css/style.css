@@ -144,10 +144,8 @@ a {
 #skibadiblurb {
     background-color: #28666e;
     position: relative;
+    padding-top: 10px;
     margin-top: 0;
-    padding-left: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
 }
 
 #skibadiblurb p {
@@ -164,9 +162,9 @@ a {
     color: #e8eded;
     font-family: "Staatliches", sans-serif;
     font-weight: 700;
-    padding: 10px;
     padding-left: 0;
     padding-top: 20px;
+    padding-bottom: 10px;
     text-align: center;
     width: 100%;
 }
